@@ -1,0 +1,20 @@
+﻿<Page x:Class="Anikeev_3ISP9_27VB_11rabota.pages.Page32"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Anikeev_3ISP9_27VB_11rabota.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="900"
+      Title="Page32">
+
+    <Grid>
+        <Image Source="/Image13.png" Stretch="Fill"/>
+        <TextBlock x:Name="storyText" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" Height="179" Margin="0,10,0,0" Background="White"><Run Text="3 года назад одним исследователем была найдена эта деревня. Жители были рады видеть"/><LineBreak/><Run Text=" необычного человека только вот языковой барьер"/><Run Text=" "/><Run Text="мешал общению поэтому "/><LineBreak/><Run Text="ему пришлось обучить население нашему языку. Когда каждый мог свободно "/><LineBreak/><Run Text="говорить на одном языке глава деревни "/><LineBreak/><Run Text="решил отблагодарить этого человека и повёл его к озеру со странной водой и "/><LineBreak/><Run Text="если выпить её  то можно превратиться в оборотня. Тогда у этого человека созрел план"/><LineBreak/><Run Text=" по экспериментам над превращёнными"/><Run Text=". "/></TextBlock>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="Слушать дольше" Margin="5" Width="199" Height="30" Click="Button_Click" />
+        </StackPanel>
+        <Image Margin="10,225,703,113" Source="/scientist_PNG45.png" Stretch="Fill"/>
+        <Image Margin="240,225,440,113" Source="/scientist_PNG47.png" Stretch="Fill"/>
+    </Grid>
+</Page>
